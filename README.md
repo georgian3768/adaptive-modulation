@@ -112,6 +112,11 @@ Headline result from the receding-unit trace: adaptive modulation reaches **1.18
 mean throughput vs. **0.70 Mbit/s** for the best fixed scheme (QPSK), while keeping every
 on-air dwell below the BER target. See `results/summary_report.md` for the full table.
 
+![Mean throughput and link availability: adaptive vs. fixed schemes](results/adaptive_vs_fixed.png)
+
+*Adaptive modulation tracks the channel: it gives up throughput only while the link is
+poor, instead of falling off a cliff like a fixed dense scheme.*
+
 `PRESENTATION.md` contains a 10–15 minute walkthrough of the demo, the key numbers and a
 Q&A reference.
 
